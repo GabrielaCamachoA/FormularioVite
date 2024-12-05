@@ -34,7 +34,9 @@ function App() {
     </label>
     <input type="submit" value="Submit" />
   </form> : <div className='newContainer'>
+    <div className="datos">
     <h2>Datos</h2>
+    </div>
     <p className='nameFull'>{nombre} {apellido}</p>
     <p>{email}</p>
     <p className='mensaje'>{mensaje}</p>
